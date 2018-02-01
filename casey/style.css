@@ -1,0 +1,113 @@
+/*
+Theme Name: Casey's Theme
+Author: Casey Smith
+Author URI: http://csmithwebdev.com
+Version: 1.0
+*/
+
+body {
+	font-family: Arial, sans-serif;
+	font-size: 14px;
+	color:#333;
+	padding:0;
+	margin:0;
+}
+
+a:link,
+a:visited {
+	color: #4CAF50;
+}
+
+p {
+	line-height: 1.65em;
+}
+
+
+/* GENERAL LAYOUT */
+
+div.container {
+	max-width: 920px;
+	margin: 0 auto; 
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+article.post {
+	border-bottom: 2px dotted #bbb;
+}
+
+article.post:last-of-type {
+	border-bottom: none;
+}
+
+/* HEADER */
+
+
+.site-header {
+	border-bottom: 2px solid #999;
+}
+
+/* FOOTER */
+.site-footer {
+	margin-top:30px;
+	border-top: 2px solid #999;
+	height: 50px;
+	background-color:#2d2d2d;
+}
+
+p.footer {
+	margin-left:20px;
+	color:#fff;
+}
+
+
+/* NAVIGATION */
+.site-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    top: 0;
+    width: 100%;
+}
+
+.site-nav ul li {
+    float: left;
+}
+
+.site-nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px 20px;
+    text-decoration: none;
+}
+
+.site-nav li a:hover:not(.active) {
+    background-color: #4CAF50;;
+}
+
+.site-header nav ul li.current-menu-item a:link,
+.site-header nav ul li.current-menu-item a:visited
+ {
+    background-color: #4CAF50;
+}
+
+
+/* POST META */
+
+.post h2 {
+	margin-bottom:0;
+}
+
+p.post-info {
+	font-size:87%;
+	color:#999;
+}
+
+p.post-info a:link,
+p.post-info a:visited {
+	color: #999;
+}
+
