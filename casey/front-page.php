@@ -2,8 +2,7 @@
 
 //WORDPRESS FUNCTION TO GET THE HEADER
 get_header();
-
-
+	
 	//WORDPRESS FUNCTION TO GET THE FOOTER
 get_footer();
 
